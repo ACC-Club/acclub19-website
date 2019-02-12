@@ -8,6 +8,12 @@ html body {
   height: 100%;
 }
 h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.white-text {
   color: white;
 }
 
@@ -17,8 +23,65 @@ h1 {
   flex-direction: row;
 }
 .nav-container li {
-
+  padding: 10px;
+}
+.nav-container a {
+  text-decoration: none;
+  color: #144455;
+  font-weight: bold;
+  font-size: 20px;
 }
 .header {
-  background-color: black;
+  background-color: white;
+  height: 100px;
+
+}
+.footer {
+  background-color: white;
+  height: 100px;
+}
+.social-media-icon-container {
+  height: auto;
+  width: 20px;
+  z-index: 5;
+  display: inline-block;
+}
+.social-media-icon-item {
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  display: inline-block;
+  position: inherit;
+}
+.social-media-icon-container a img {
+  height: 100%;
+  width: 100%;
+}
+.email-link {
+  text-align: center;
+}
+.address {
+  text-align: center;
+}
+.ACClub-logo-big {
+  width: 12%;
+  height: 20%;
+  position: absolute;
+  z-index: 10;
+  margin-top: -80px;
+  margin-left: 40px;
+}
+.logo-container {
+
+}
+.content {
+  background-color: #144455;
+  height: 200px;
+}
+.project-text{
+
+}
+.projects {
+  background-color: #144455;
+  height: 300px;
 }
