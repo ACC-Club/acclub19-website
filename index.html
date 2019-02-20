@@ -1,139 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- jQuery CDN needed for superslides.js -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Additional CSS -->
-    <link rel = "stylesheet" type = "text/css" href= "css/style.css" />
-    <link rel = "stylesheet" type = "text/css" href = "css/superslides.css" />
-
-
+<head>
+    <meta charset="UTF-8">
     <title>ACClub Landing Page</title>
 
-  </head>
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="icon/acclub_favicon.png">
+</head>
+<body>
+    <div class = "header-container">
 
-
-
-  <body>
-    <div class = "header container-fluid">
-      <div class = "row" >
-        <div class = "col-7">
+        <div class = "logo-container">
+            <a href="index.html"><img class = "acclub-logo" alt = "Applied Computing Club Logo" src = "icon/ACClub_600.png"></a>
         </div>
-        <div class = "col-5">
 
 
+        <div class = "nav-container">
+            <a href="about.html">About</a>
+            <a href="open-source.html">Open-Source Projects</a>
+            <a href="salesforce.html">Salesforce</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
 
-          <div class = "nav-container">
-            <ul>
-              <li>
-                <a href = "about.html">About</a>
-              </li>
-              <li>
-                <a href = "open-source.html">Open-Source Projects</a>
-              </li>
-              <li>
-                <a href = "salesforce.html">Salesforce</a>
-              </li>
-              <li>
-                <a href = "contact.html">Contact</a>
-              </li>
+    <!--<div class = "transparent-container">-->
+
+
+        <div class = "social-media-container">
+                <a href = "https://discord.gg/nzxeKeD" target = "_blank"><img class = "social-media-icon" alt = "social media icon" src = "icon/discord_icon.png"></a>
+                <a href = "https://www.instagram.com/iupuiacclub/" target = "_blank"><img class = "social-media-icon" alt = "social media icon" src = "icon/insta_icon.png"></a>
+                <a href = "https://www.facebook.com/IUPUIACClub/?epa=SEARCH_BOX"target = "_blank"><img class = "social-media-icon" alt = "social media icon" src = "icon/facebook_icon.png"></a>
+        </div>
+
+        <div class = "social-message-container">
+            <h6>Join our community!</h6>
+        </div>
+    <!--</div>-->
+
+    <section class="slider">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/IMG1.jpeg" />
+                </li>
+                <li>
+                    <img src="img/IMG2.jpg" />
+                </li>
+                <li>
+                    <img src="img/IMG3.jpg" />
+                </li>
             </ul>
-          </div>
-
-
-
         </div>
-      </div>
-    </div>
+    </section>
 
-    <div class = "logo-container">
-
-      <a href = "index.html"><img class = "ACClub-logo-big" src = "icon/ACClub_600.png" /></a>
-    </div>
-
-
-
-
-      <div id="slides">
-        <div id='overlay'></div>
-        <div class="slides-container">
-          <img src="img/IMG1.jpeg" alt="generic photo one">
-          <img src="img/IMG2.jpg" alt="generic photo two">
-          <img src="img/IMG3.jpg" alt="generic photo three">
-        </div>
-
-
-        <!-- <nav class="slides-navigation">
-          <a href=#slides class="next"></a>
-          <a href=#slides class="prev"></a>
-        </nav> -->
-      </div>
-
-
-    <div class = "content container-fluid">
-      <h1 class="white-text">ACClub 2019</h1>
-      <h3 class="white-text">@IUPUI</h3>
-      <p class="white-text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-    </div>
-
-    <div class = "footer container-fluid">
-      <div class = "row">
-        <div class = "col-4">
-
-            <div class = 'social-media-icon-container'>
-              <a href = 'github.com' class = 'social-media-icon-item'><img src = 'icon/facebook_icon.png' alt = 'facebook icon'/></a>
+    <div class = "main-content-container home-container">
+        <h1>ACClub 2019</h1>
+        <h2>@IUPUI</h2>
+        <div class = "main-content">
+            <h3>-------- Upcoming events --------</h3>
+            <div class = "event event1">
+                <h4>Help Code a Twitter Bot!</h4>
+                <h5>February 25th, 2019 5:30 @ the Idea Garden</h5>
+                <p>
+                    Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum
+                </p>
             </div>
-
-            <div class = 'social-media-icon-container'>
-              <a href = 'github.com' class = 'social-media-icon-item'><img src = 'icon/github_icon.png' alt = 'github icon'/></a>
+            <div class = "event event2">
+                <h4>Help Code a Google Home Assistant! </h4>
+                <h5>March 4th, 2019 5:30 @ the Idea Garden</h5>
+                <p>
+                    Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum  Lorem Ipsum Lorem Ipsum
+                </p>
             </div>
-
         </div>
 
+    </div>
 
-        <div class = "col-4">
-          <a href = "salesforce.html"><h6 class = "email-link">Join our mailing list!</h6></a>
+    <div class = "footer-container">
+        <div class = "nothing-container"></div>
+        <div class = "insert-email-container">
+            <span>Join our mailing list</span>
         </div>
-        <div class = "col-4">
-          <p class = "address">
-            420 University Blvd,
-
-            Indianapolis, IN
-
-            46202
-
-            &copy ACClub
-          </p>
+        <div class = "fine-print-info-container">
+            <span>420 University Blvd.</span> <br>
+            <span>Indianapolis, IN 46202</span> <br>
+            <span>&copy; ACClub</span>
         </div>
     </div>
-  </div>
 
 
+    <!-- Javascript files -->
+    <script type="text/javascript" src = "js/script.js"></script>
 
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
+    <!-- FlexSlider -->
+    <script defer src="js/jquery.flexslider-min.js"></script>
 
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <script src ="js/jquery.superslides.min.js"></script>
-    <script src ="js/script.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script type="text/javascript">
+        $(function(){
+            SyntaxHighlighter.all();
+        });
+        $(window).load(function(){
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider){
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+    </script>
+</body>
 </html>

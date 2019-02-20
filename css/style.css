@@ -1,87 +1,313 @@
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+li.css a {
+    border-radius: 0;
+}
 * {
-  margin: 0;
-  padding: 0px;
-  z-index: 0;
+    margin: 0;
 }
-html body {
-  width: 100%;
-  height: 100%;
+html,body {
+    height: 100%;
 }
-h1 {
-  text-align: center;
+.header-container {
+    height: 40px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-h3 {
-  text-align: center;
+.logo-container{
+    width: 200px;
+    height: 200px;
+    z-index: 19;
+    display: flex;
+    align-self: flex-start;
 }
-.white-text {
-  color: white;
+.acclub-logo {
+    width: 100%;
+    height: 100%;
+    z-index: 20;
 }
-
-.nav-container ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-}
-.nav-container li {
-  padding: 10px;
-}
-.nav-container a {
-  text-decoration: none;
-  color: #144455;
-  font-weight: bold;
-  font-size: 20px;
-}
-.header {
-  background-color: white;
-  height: 100px;
+.transparent-container{
+    height: 100px;
+    width: 1400px;
+    background-color: grey;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
 
 }
-.footer {
-  background-color: white;
-  height: 100px;
+
+.social-media-container{
+    background-color: white;
+    z-index: 19;
+    position: absolute;
+    right: 0px;
+    height: 35px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
 }
-.social-media-icon-container {
-  height: auto;
-  width: 20px;
-  z-index: 5;
-  display: inline-block;
-}
-.social-media-icon-item {
-  height: 100%;
-  width: 100%;
-  z-index: 5;
-  display: inline-block;
-  position: inherit;
-}
-.social-media-icon-container a img {
-  height: 100%;
-  width: 100%;
-}
-.email-link {
-  text-align: center;
-}
-.address {
-  text-align: center;
-}
-.ACClub-logo-big {
-  width: 12%;
-  height: 20%;
-  position: absolute;
-  z-index: 10;
-  margin-top: -80px;
-  margin-left: 40px;
-}
-.logo-container {
+.social-media-container a{
+    z-index: 20;
 
 }
-.content {
-  background-color: #144455;
-  height: 200px;
-}
-.project-text{
+
+.social-media-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px;
+
 
 }
-.projects {
-  background-color: #144455;
-  height: 300px;
+.social-message-container{
+    background-color: rgba(31, 31, 31, 0.65);
+    z-index:19;
+    position: absolute;
+    right: 0;
+    height: 25px;
+    width: 200px;
+    margin-top: 37px;
+}
+.social-message-container h6 {
+    text-align: center;
+    font-family: Arial, serif;
+    font-size: 15px;
+    color: #d7d7d7;
+
+}
+.nav-container {
+
+}
+.header-container .nav-container a {
+    text-decoration: none;
+    padding: 8px;
+    color: #144455;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+
+}
+.main-content-container {
+    background-color: #004E63;
+    height: 950px;
+    display: flex;
+}
+
+.main-content {
+
+
+}
+.main-content-container h1 {
+    text-align: center;
+    color: #52C4C4;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+.main-content-container h2 {
+    text-align: center;
+    color: #52C4C4;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+
+}
+.main-content-container h3 {
+    text-align: center;
+    color: #52C4C4;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+.main-content-container h4 {
+    margin-left: 20px;
+    color: #52C4C4;
+    font-family: Arial, sans-serif;
+}
+.main-content-container h5 {
+    margin-left: 20px;
+    font-size:12px;
+    color: #52C4C4;
+    font-family: Arial, sans-serif
+}
+.main-content-container p{
+    text-align: center;
+    color: white;
+    font-family: Baghdad, serif;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 50px;
+    background-color: #52C4C4;
+}
+.nothing-container{
+    height: 50px;
+    width: 200px;
+}
+.insert-email-container{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+.fine-print-info-container{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    font-family: Baghdad, serif;
+    font-size: 12px;
+    color: #004E63;
+
+}
+.home-container {
+    align-content: center;
+    flex-flow: column wrap;
+}
+.home-container .main-content .event {
+    padding: 20px;
+}
+.home-container .main-content .event p{
+    text-align: left;
+    padding: 15px;
+}
+.about-container {
+    align-content: center;
+    flex-flow: column wrap;x
+}
+.about-content {
+    margin-top: 200px;
+}
+.about-content .a-content p {
+    text-align: left;
+    padding: 15px;
+}
+.open-source-content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: center;
+    height: 950px;
+}
+.open-source-box {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+
+}
+.open-source-h1 {
+    height:150px;
+    position: absolute;
+    display: inline-block;
+    left: 550px;
+}
+@media only screen and (min-width: 200px) and (max-width:735px) {
+    .header-container{
+        width: 425px;
+    }
+    .logo-container{
+        width: 125px;
+        height: 125px;
+    }
+    .header-container .nav-container a {
+        padding: 4px;
+        font-size: 12px;
+        font-family: arial, sans-serif;
+
+    }
+    .main-content-container {
+        height: 875px;
+    }
+    .open-source-box {
+        height: 180px;
+        width: 180px;
+        border: 2px solid white;
+
+    }
+    .open-source-h1 {
+        height:150px;
+        position: absolute;
+        display: inline-block;
+        left: 125px;
+        margin-top: 25px;
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 736px) and (max-width: 979px) {
+    .header-container{
+        width: 750px;
+    }
+   .logo-container{
+       width: 150px;
+       height: 150px;
+   }
+    .header-container .nav-container a {
+        padding: 8px;
+        font-size: 18px;
+        font-family: arial, sans-serif;
+
+    }
+    .main-content-container {
+        height: 875px;
+    }
+    .open-source-box {
+        height: 200px;
+        width: 200px;
+        border: 2px solid white;
+
+    }
+    .open-source-h1 {
+        height:150px;
+        position: absolute;
+        display: inline-block;
+        left: 235px;
+        margin-top: 55px;
+    }
+}
+@media only screen and (min-width: 980px) and (max-width: 1279px) {
+    .header-container{
+        width: 980px;
+    }
+    .open-source-box {
+        background-color: black;
+        height: 220px;
+        width: 220px;
+        border: 2px solid white;
+
+    }
+    .open-source-h1 {
+        height:150px;
+        position: absolute;
+        display: inline-block;
+        margin-top: 55px;
+        left: 350px;
+    }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1689px) {
+    .header-container{
+        width: 1280px;
+    }
+    .open-source-h1 {
+        height:150px;
+        position: absolute;
+        display: inline-block;
+        margin-top: 55px;
+    }
+}
+@media only screen and (min-width: 1690px) {
+    .header-container{
+        width: 1400px;
+    }
 }
