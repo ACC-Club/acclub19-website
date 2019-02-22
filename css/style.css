@@ -145,6 +145,11 @@ html,body {
     font-family: Baghdad, serif;
 
 }
+.main-content .event {
+    position: center;
+    width: 600px;
+    
+}
 .footer-container{
     display: flex;
     justify-content: space-evenly;
