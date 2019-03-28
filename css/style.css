@@ -150,6 +150,11 @@ html,body {
     width: 600px;
 
 }
+.event a {
+    text-decoration: none;
+    color: #52C4C4;
+    font-family: Baghdad, serif;
+}
 .footer-container{
     display: flex;
     justify-content: space-evenly;
